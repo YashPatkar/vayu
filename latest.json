@@ -1,0 +1,7 @@
+{
+  "version": "0.1.0",
+  "url": "https://github.com/YashPatkar/vayu/releases/download/v0.1.0/vayu.exe",
+  "sha256": "034f78e867402afae4cbe3ba636a51e5b2da878183a11fc8ce61ec7620824444",
+  "signature": "cb2455b36f560f09893ecbcf178f7f7cbca1ba348e1860adcd78fc5c70be15fca5a8f22aafcb821450c03d5ad29394e26dd5460664d7ff2e67ac502fd930f006",
+  "notes": "First release: core launcher, voice, AI agent, setup screen"
+}
