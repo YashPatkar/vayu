@@ -1,90 +1,129 @@
-<p align="center">
-  <img src="assets/logo/logo.png" width="96" alt="Vayu logo">
-</p>
-
-<h1 align="center">Vayu</h1>
+<h1 align="center"><img src="assets/logo/logo.png" width="44" align="absmiddle" alt=""> Vayu</h1>
 <p align="center"><b>A free, fastest command palette launcher application that works completely offline for Windows.</b></p>
 
 <p align="center">
-  <a href="#download">Download</a> ·
-  <a href="#features">Features</a> ·
-  <a href="#how-it-compares">Comparison</a> ·
-  <a href="#privacy--security">Privacy</a> ·
-  <a href="#feedback--issues">Feedback</a>
+  <a href="https://github.com/YashPatkar/vayu/releases/latest/download/vayu.exe"><b>Download for Windows</b></a> ·
+  <a href="#why-people-switch">Why switch</a> ·
+  <a href="#everything-it-does">Features</a> ·
+  <a href="#side-by-side">Comparison</a> ·
+  <a href="#privacy">Privacy</a>
 </p>
 
 ---
 
+Press a shortcut. Type a name or a whole sentence. It's done before you finish blinking.
+
+Vayu is a launcher like the ones you may already use, rebuilt from scratch to be **tiny, instant and
+private**. One 4 MB file. No account. No subscription. No internet needed. It sits at **0% CPU**
+while you're not using it, and opens in about **2 milliseconds**.
+
 ## Download
 
-**[Download Vayu for Windows](https://github.com/YashPatkar/vayu/releases/latest/download/vayu.exe)**: one `.exe`, no installer, about 4 MB.
+**[⬇ Download vayu.exe](https://github.com/YashPatkar/vayu/releases/latest/download/vayu.exe)** (about 4 MB)
 
-Requires Windows 10 or 11 (64-bit). No .NET, no runtime, no admin rights. Run it once and it starts
-with Windows from then on. Press **Ctrl+Alt+Space** to open it (you can change this in Settings).
+1. Run it. There's no installer and no admin prompt.
+2. Press **Ctrl+Alt+Space**. That's it.
 
-Vayu updates itself: when a new version is out, an update row appears in Settings.
+Works on Windows 10 and 11 (64-bit). Nothing else to install. It starts with Windows from then on and
+updates itself.
 
-## Why Vayu
+## Why people switch
 
-Most launchers on Windows are either heavy (hundreds of megabytes, many background processes) or do
-only one thing. Vayu is built from scratch in Rust on the plain Windows API, with no Electron, no
-WebView and no .NET, so it opens in about 2 milliseconds and uses almost nothing while it waits.
+- **It's instant.** About 2 ms from your key press to the window: faster than your screen can draw a
+  frame. Other launchers can take 15 times longer.
+- **It's light.** A 4 MB download, about 60 MB of memory after a full day of use, and 0% CPU when idle.
+  Others take hundreds of megabytes of disk and memory, and keep working in the background.
+- **It's free, really.** No paid plan, no "Pro" features, no trial that runs out. AI included, with your
+  own key or a model on your own PC.
+- **It's private.** Works completely offline. No account, no sign-in, no tracking. Nothing you type
+  ever leaves your PC unless you choose to use an online AI.
+- **It understands you.** Type "open notion" and it opens the app, or the website if you don't have
+  the app. Type a whole sentence and it does every step.
 
-Press your shortcut. Type a name, or a whole sentence. Get it done.
+## Everything it does
 
-## Features
+### Find and open
 
-- **Works offline.** Search, the terminal, notes, sites and settings all run on your PC with no
-  internet. Only the optional AI and the update check ever go online.
-- **Find anything fast.** Apps, Windows settings (`!`), and files and folders (`/`), all in one box.
-  The results you pick most often come first.
-- **Open anything by name.** "open notion" opens the app if you have it, otherwise the website,
-  otherwise it offers a web search. No dead ends.
-- **Sites in any browser.** "open chatgpt on brave" or "open youtube using my work edge" opens the
-  site in that browser, in the right profile. Add your own sites with just a link.
-- **Say it in a sentence.** "open docker, then open my project in vs code": Vayu does every step, in
-  order.
-- **Your own AI, your own key** (optional). Bring any provider you like, or run a model on your own
-  PC. Vayu never bundles or resells AI access.
-- **An instant terminal**, built in. Start with `>` to run a command right in the box.
-- **Quick notes** with `@`, without opening another app.
-- **Calculator and web search** as fallbacks, so you're never stuck with "nothing found".
-- **Your shortcut, your way.** Press the keys you want and save. Starts with Windows by default.
+- **Apps, settings, files and folders** in one box. Type a few letters; the right thing comes first.
+- **It learns.** What you pick most comes first next time, for the exact words you typed.
+- **Windows settings** with `!` ("!bluetooth", "!display"), **files and folders** with `/`.
+- **Open anything by name.** An app if you have it, a website if you don't, a web search if it's
+  neither. Never a dead end.
+- **Websites in the browser you want.** "open youtube on brave", "open chatgpt using my work edge":
+  even the right browser profile.
+- **Your own sites.** Paste a link once; open it by a word from its address forever.
+- **Run as administrator, open file location, or hide** a result, right from the list.
 
-## How it compares
+### Do more in one go
 
-| | **Vayu** | PowerToys Run | PowerToys Command Palette |
+- **Sentences with several steps.** "open docker, then open my project in vs code". Vayu does each
+  step in order. No AI needed for everyday sentences.
+- **Hindi and Hinglish** typed in Devanagari work too.
+- **A terminal in the box.** Start with `>` to run a command and see the output right there. Risky
+  commands ask before running.
+- **Calculator.** Type `24*8/16`, press Enter to copy the answer.
+- **Quick notes** with `@`: jot something down without opening another app.
+
+### AI, your way (optional)
+
+- **Bring your own AI**: a key from any cloud provider (Anthropic, OpenAI, Groq, Gemini and more), or
+  a **model running on your own PC** (Ollama, llama.cpp) with no internet at all.
+- Your key goes straight from your PC to the provider you picked. No middleman, no markup, no
+  subscription.
+- AI only steps in for sentences the built-in rules can't read. Everything else stays offline.
+
+### For power users: Developer mode
+
+- **Your own commands**: give any command a short name and run it from the box.
+- **Your own tools**: point Vayu at a folder, and your AI coding assistant can write new tools for it.
+  Each tool asks once before it ever runs.
+- **Pick your terminal**: Command Prompt, PowerShell, Git Bash, WSL, whatever you have.
+
+### Made to stay out of your way
+
+- **Your shortcut, your way.** Press the keys you want and save. No typing key names.
+- **Starts with Windows**, ready when you log in. Turn it off any time.
+- **Remembers what you typed** if you click away, so nothing is lost.
+- **Updates itself**, and checks every update's digital signature before installing it.
+- **Dark, clean and smooth**: no flicker while you type.
+
+## Side by side
+
+Measured on the same laptop (Intel Core i5-12450H, 16 GB RAM, Windows 11), all three running at the same time, on 18 November 2026.
+
+| | **Vayu** | Raycast | PowerToys Run |
 |---|---|---|---|
-| Shortcut → window shown | **~2 ms** | ~35 ms | ~3 ms |
-| Download size | **~4 MB** | part of an 800+ MB suite | part of an 800+ MB suite |
-| Memory while idle | **~11 MB** | ~190 MB | not measured |
-| Runtime required | **None** | .NET | .NET |
-| Works fully offline | **Yes** | Yes | Yes |
-| Multi-step sentences | **Yes** | No | No |
-| Your own AI key, no middleman | **Yes** | No | No |
+| Space on disk | **4 MB** | 565 MB | 851 MB (PowerToys) |
+| Memory after real use | **60 MB** | 348 MB | 111 MB |
+| Highest memory seen | **76 MB** | 428 MB | 278 MB |
+| CPU while idle | **0.00%** | 0.63% | 0.26% |
+| Key press → window shown | **~2 ms** | not measured | ~35 ms |
+| Runs without an account | **Yes** | Sign-in for Pro features | Yes |
+| AI without a paid plan | **Yes** (your key or a local model) | No (Pro plan) | No AI |
+| Multi-step sentences | **Yes**, no AI needed | With paid AI | No |
 
-*Measured on the same machine in the same session; your results may vary.*
+*Memory is the working set reported by Windows; for Raycast and PowerToys Run it includes their helper
+process (highest memory is the main process alone). Idle CPU is measured over 30 seconds with each launcher hidden. Your numbers will differ by PC.*
 
-## Privacy & security
+## Privacy
 
 **Your data stays on your PC, and the author never sees it.** Vayu has no server, no account, no
-telemetry and no analytics. Your apps, your files and what you type stay on your own device.
+telemetry and no analytics.
 
-- **No telemetry, ever.** Vayu has no way to phone home.
-- **No bundled AI, no middleman.** If you set up AI, your sentence goes straight from your PC to the
-  provider *you* chose. Your key is kept in Windows Credential Manager, never in a plain file.
-- **No admin rights needed.** Nothing is installed outside your own user folder.
-- **Every update is signed.** Vayu checks a cryptographic signature before installing any update.
-- **Asks before risky steps.** Closing an app, running a command the AI chose, or running a tool for
-  the first time always asks you first.
+- **No tracking, ever.** Vayu has no way to phone home.
+- **Offline by default.** Only two things ever go online, and only if you use them: an online AI you
+  set up yourself, and the update check (which sends nothing about you).
+- **Your AI key** is kept in Windows Credential Manager, never in a plain file.
+- **No admin rights.** Nothing is installed outside your own user folder.
+- **Asks before risky steps**: closing an app, running a command the AI chose, or running a tool for
+  the first time.
 
 Full details: [Privacy Policy](PRIVACY.md).
 
 ## Free to use
 
-Vayu is free to download and use. This repo holds the app and its releases, not the source code. See
-the [Terms of Use](TERMS.md) for what you may do with it (use it anywhere: yes; resell or rebrand
-it: no).
+Vayu is free to download and use, at home or at work. This repo holds the app and its releases, not
+the source code. See the [Terms of Use](TERMS.md) (use it anywhere: yes; resell or rebrand it: no).
 
 ## Feedback & issues
 
