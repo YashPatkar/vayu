@@ -52,6 +52,8 @@ updates itself.
 - **Websites in the browser you want.** "open youtube on brave", "open chatgpt using my work edge":
   even the right browser profile.
 - **Your own sites.** Paste a link once; open it by a word from its address forever.
+- **Recently used** at the top: reopen what you used last with one key press. Pick how many, or
+  turn it off.
 - **Run as administrator, open file location, or hide** a result, right from the list.
 
 ### Do more in one go
@@ -82,7 +84,9 @@ updates itself.
 ### Made to stay out of your way
 
 - **Your shortcut, your way.** Press the keys you want and save. No typing key names.
-- **Starts with Windows**, ready when you log in. Turn it off any time.
+- **Starts with Windows**, ready when you log in. Turn it off any time. Want it even sooner? Start
+  it as a Windows service, at top priority.
+- **A clean settings window**: clear sections, switches, and a search box to find any setting.
 - **Remembers what you typed** if you click away, so nothing is lost.
 - **Updates itself**, and checks every update's digital signature before installing it.
 - **Dark, clean and smooth**: no flicker while you type.

@@ -1,7 +1,7 @@
 {
-  "version": "0.2.0",
-  "url": "https://github.com/YashPatkar/vayu/releases/download/v0.2.0/vayu.exe",
-  "sha256": "cd2c02572fc9a6e1b1ebafcce82b821157debe77471fb86aa564265dd856bcac",
-  "signature": "46079d2f554bfde9a346e9eb8fa0957800dacb82d37015e068da49b4edde45c75c39bb166b7cb7357667f37add6e361d0c43bd2b135db3b34841d435cd7b7d07",
-  "notes": "Open anything by name: apps first, then known sites, then a web search offer. Open sites in any browser or profile. New shortcut editor. Smoother drawing while typing. Voice input removed for now."
+  "version": "0.3.0",
+  "url": "https://github.com/YashPatkar/vayu/releases/download/v0.3.0/vayu.exe",
+  "sha256": "105b41b6ebcd5d30bff3cd13fe9e11600cec511693d357a5d27961b7e8d7d136",
+  "signature": "9e363042d43b2775c3d55b081d9d1d961ad23e392d7ee40272e81863437c60feaaea56eff69e49583991c7be47f8ac2d45fe1c4d7126e95dde646d53d0432c04",
+  "notes": "New settings window. Recently used apps on the home screen. Start as a Windows service for the fastest start. Start with Windows now really turns on. Smoother list: hover highlight, no wrap-around, no gaps."
 }
