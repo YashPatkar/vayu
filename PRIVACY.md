@@ -7,7 +7,7 @@ people use Vayu and which parts are worth improving.
 ## What stays on your computer
 
 - Your settings, your custom commands, your notes, and your usage history: stored in a local
-  database at `%LOCALAPPDATA%\Vayu`, never sent anywhere.
+  database at `%LOCALAPPDATA%\CommandPalette`, never sent anywhere.
 - Your typed text: kept only in memory while the window is open (and briefly after, so you can
   come back to it), never written to a file in plain form except your own notes.
 - A local index of your app list and file names, built on your computer, for search. It never
