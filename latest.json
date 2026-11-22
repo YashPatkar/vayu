@@ -1,7 +1,7 @@
 {
-  "version": "0.3.0",
-  "url": "https://github.com/YashPatkar/vayu/releases/download/v0.3.0/vayu.exe",
-  "sha256": "105b41b6ebcd5d30bff3cd13fe9e11600cec511693d357a5d27961b7e8d7d136",
-  "signature": "9e363042d43b2775c3d55b081d9d1d961ad23e392d7ee40272e81863437c60feaaea56eff69e49583991c7be47f8ac2d45fe1c4d7126e95dde646d53d0432c04",
-  "notes": "New settings window. Recently used apps on the home screen. Start as a Windows service for the fastest start. Start with Windows now really turns on. Smoother list: hover highlight, no wrap-around, no gaps."
+  "version": "0.4.0",
+  "url": "https://github.com/YashPatkar/vayu/releases/download/v0.4.0/vayu.exe",
+  "sha256": "5a7f5bb86c0f45b1e03dde74f2a81a18e27e0a41e48c38a24762e1ad79f45bc3",
+  "signature": "a143a5cab23d19dcc5afc748082580e0ea3295b716fd11ed7ad9e0d8db51b6f599529003f1984118b93dfdd3b8c34edce1b374dbb10bdcb303c363c23abe750c",
+  "notes": "New look and a guided setup. The Windows key opens Vayu. Clipboard history with #, screenshots in Vayu AI, and anonymous usage counts."
 }

@@ -14,15 +14,24 @@
 Press a shortcut. Type a name or a whole sentence. It's done before you finish blinking.
 
 Vayu is a launcher like the ones you may already use, rebuilt from scratch to be **tiny, instant and
-private**. One 4 MB file. No account. No subscription. No internet needed. It sits at **0% CPU**
+private**. One small file (about 6 MB). No account. No subscription. No internet needed. It sits at **0% CPU**
 while you're not using it, and opens in about **2 milliseconds**.
+
+<p align="center">
+  <img src="assets/screens/01-palette.png" width="560" alt="Vayu's search box, showing results as you type">
+</p>
+<p align="center">
+  <img src="assets/screens/02-welcome.png" width="400" alt="Vayu's guided setup">
+  &nbsp;
+  <img src="assets/screens/03-try-it.png" width="400" alt="Trying the Windows key at the end of setup">
+</p>
 
 ## Download
 
-**[⬇ Download vayu.exe](https://github.com/YashPatkar/vayu/releases/latest/download/vayu.exe)** (about 4 MB)
+**[⬇ Download vayu.exe](https://github.com/YashPatkar/vayu/releases/latest/download/vayu.exe)** (about 6 MB)
 
-1. Run it. There's no installer and no admin prompt.
-2. Press **Ctrl+Alt+Space**. That's it.
+1. Run it. There's no installer and no admin prompt. A short setup walks you through the rest.
+2. Tap the **Windows key**. That's it. (Want another shortcut? Pick it in setup or in Settings.)
 
 Works on Windows 10 and 11 (64-bit). Nothing else to install. It starts with Windows from then on and
 updates itself.
@@ -31,12 +40,12 @@ updates itself.
 
 - **It's instant.** About 2 ms from your key press to the window: faster than your screen can draw a
   frame. Other launchers can take 15 times longer.
-- **It's light.** A 4 MB download, about 60 MB of memory after a full day of use, and 0% CPU when idle.
+- **It's light.** A 6 MB download, about 60 MB of memory after a full day of use, and 0% CPU when idle.
   Others take hundreds of megabytes of disk and memory, and keep working in the background.
 - **It's free, really.** No paid plan, no "Pro" features, no trial that runs out. AI included, with your
   own key or a model on your own PC.
-- **It's private.** Works completely offline. No account, no sign-in, no tracking. Nothing you type
-  ever leaves your PC unless you choose to use an online AI.
+- **It's private.** Works offline. No account, no sign-in. Nothing you type ever leaves your PC
+  unless you choose to use an online AI. Vayu only sends a few anonymous usage counts.
 - **It understands you.** Type "open notion" and it opens the app, or the website if you don't have
   the app. Type a whole sentence and it does every step.
 
@@ -55,6 +64,9 @@ updates itself.
 - **Recently used** at the top: reopen what you used last with one key press. Pick how many, or
   turn it off.
 - **Run as administrator, open file location, or hide** a result, right from the list.
+- **Clipboard history.** Type `#` to see what you copied lately: text and screenshots, newest
+  first. Press Enter to paste one back, pin the ones you keep using. Anything a password manager
+  marks as private is never saved, and nothing leaves your PC.
 
 ### Do more in one go
 
@@ -68,6 +80,9 @@ updates itself.
 
 ### AI, your way (optional)
 
+- **Use an AI you already have.** Sign in once to the Claude or ChatGPT app on your PC and Vayu works
+  with it: ask in the box, or open **Vayu AI** for a full chat.
+- **Paste a screenshot** straight into Vayu AI (Ctrl+V) and ask about it.
 - **Bring your own AI**: a key from any cloud provider (Anthropic, OpenAI, Groq, Gemini and more), or
   a **model running on your own PC** (Ollama, llama.cpp) with no internet at all.
 - Your key goes straight from your PC to the provider you picked. No middleman, no markup, no
@@ -83,13 +98,15 @@ updates itself.
 
 ### Made to stay out of your way
 
-- **Your shortcut, your way.** Press the keys you want and save. No typing key names.
+- **The Windows key opens Vayu.** Tap it by itself; Win plus another key still works as always.
+  Prefer something else? Press the keys you want and save. No typing key names.
+- **A guided first run.** Four short steps: what it does, connect an AI, and try your shortcut.
 - **Starts with Windows**, ready when you log in. Turn it off any time. Want it even sooner? Start
   it as a Windows service, at top priority.
 - **A clean settings window**: clear sections, switches, and a search box to find any setting.
 - **Remembers what you typed** if you click away, so nothing is lost.
 - **Updates itself**, and checks every update's digital signature before installing it.
-- **Dark, clean and smooth**: no flicker while you type.
+- **Dark, clean and smooth**: crisp text, a soft glow, and no flicker while you type.
 
 ## Side by side
 
@@ -97,7 +114,7 @@ Measured on the same laptop (Intel Core i5-12450H, 16 GB RAM, Windows 11), all t
 
 | | **Vayu** | Raycast | PowerToys Run |
 |---|---|---|---|
-| Space on disk | **4 MB** | 565 MB | 851 MB (PowerToys) |
+| Space on disk | **6 MB** | 565 MB | 851 MB (PowerToys) |
 | Memory after real use | **60 MB** | 348 MB | 111 MB |
 | Highest memory seen | **76 MB** | 428 MB | 278 MB |
 | CPU while idle | **0.00%** | 0.63% | 0.26% |
@@ -111,16 +128,28 @@ process (highest memory is the main process alone). Idle CPU is measured over 30
 
 ## Privacy
 
-**Your data stays on your PC, and the author never sees it.** Vayu has no server, no account, no
-telemetry and no analytics.
+**What you type, search and open stays on your PC.** Vayu has no account and nothing to sign in to.
 
-- **No tracking, ever.** Vayu has no way to phone home.
-- **Offline by default.** Only two things ever go online, and only if you use them: an online AI you
-  set up yourself, and the update check (which sends nothing about you).
+- **Offline by default.** Besides the usage counts below, only two things go online, and only if you
+  use them: an online AI you set up yourself, and the update check (which sends nothing about you).
 - **Your AI key** is kept in Windows Credential Manager, never in a plain file.
 - **No admin rights.** Nothing is installed outside your own user folder.
 - **Asks before risky steps**: closing an app, running a command the AI chose, or running a tool for
   the first time.
+
+### Anonymous usage counts
+
+Vayu sends a few anonymous counts so the author can see how many people use it and which features
+are worth improving. This is always on.
+
+- **Sent:** a random install id (not linked to you or your PC), the Vayu and Windows version, display
+  scale and language, when Vayu was installed, started or updated, which setup pages were reached,
+  and once a day how many times each kind of thing was opened (apps, files, folders, settings,
+  commands, notes, web searches, sums, AI questions), only the numbers. If Vayu crashes, where in its
+  code it happened, with paths removed.
+- **Never sent:** anything you type or search, file names or paths, app names, AI questions or
+  answers, notes, your user name, your computer's name, or hardware ids.
+- **Where:** PostHog, on its servers in the European Union, with location lookup turned off.
 
 Full details: [Privacy Policy](PRIVACY.md).
 
