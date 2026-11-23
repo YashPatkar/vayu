@@ -11,19 +11,19 @@
 
 ---
 
-Press a shortcut. Type a name or a whole sentence. It's done before you finish blinking.
+Press a shortcut. Type a name or a whole sentence. It's done in a moment.
 
 Vayu is a launcher like the ones you may already use, rebuilt from scratch to be **tiny, instant and
 private**. One small file (about 6 MB). No account. No subscription. No internet needed. It sits at **0% CPU**
-while you're not using it, and opens in about **2 milliseconds**.
+while you're not using it, and shows the window in about **50 milliseconds** after you press the key.
 
 <p align="center">
-  <img src="assets/screens/01-palette.png" width="560" alt="Vayu's search box, showing results as you type">
+  <img src="assets/screens/01-palette.png" width="400" alt="Vayu's search box, showing apps as you type">
+  &nbsp;
+  <img src="assets/screens/02-welcome.png" width="400" alt="Vayu's guided setup">
 </p>
 <p align="center">
-  <img src="assets/screens/02-welcome.png" width="400" alt="Vayu's guided setup">
-  &nbsp;
-  <img src="assets/screens/03-try-it.png" width="400" alt="Trying the Windows key at the end of setup">
+  <img src="assets/screens/03-terminal.png" width="620" alt="Vayu's built-in terminal with tabs for Git Bash and Windows PowerShell">
 </p>
 
 ## Download
@@ -38,10 +38,11 @@ updates itself.
 
 ## Why people switch
 
-- **It's instant.** About 2 ms from your key press to the window: faster than your screen can draw a
-  frame. Other launchers can take 15 times longer.
+- **It's instant.** About 50 ms from your key press to the window drawn
+  (measured on 23 November 2026 on a 144 Hz screen).
 - **It's light.** A 6 MB download, about 60 MB of memory after a full day of use, and 0% CPU when idle.
   Others take hundreds of megabytes of disk and memory, and keep working in the background.
+  Built with Rust: native code with no runtime, and memory safe by design.
 - **It's free, really.** No paid plan, no "Pro" features, no trial that runs out. AI included, with your
   own key or a model on your own PC.
 - **It's private.** Works offline. No account, no sign-in. Nothing you type ever leaves your PC
@@ -118,7 +119,7 @@ Measured on the same laptop (Intel Core i5-12450H, 16 GB RAM, Windows 11), all t
 | Memory after real use | **60 MB** | 348 MB | 111 MB |
 | Highest memory seen | **76 MB** | 428 MB | 278 MB |
 | CPU while idle | **0.00%** | 0.63% | 0.26% |
-| Key press → window shown | **~2 ms** | not measured | ~35 ms |
+| Key press → window drawn | **~50 ms** (23 Nov 2026) | not measured | not measured |
 | Runs without an account | **Yes** | Sign-in for Pro features | Yes |
 | AI without a paid plan | **Yes** (your key or a local model) | No (Pro plan) | No AI |
 | Multi-step sentences | **Yes**, no AI needed | With paid AI | No |

@@ -1,7 +1,7 @@
 {
-  "version": "0.4.1",
-  "url": "https://github.com/YashPatkar/vayu/releases/download/v0.4.1/vayu.exe",
-  "sha256": "280c52d904e26310ced87a380a6eeb6871d9c5c8c6597a587cb8e4554bf79c88",
-  "signature": "010b7539026388cb5cfad7003bf7062b2c144dfd104ed833a2437e2eb480b05eff8dce5a284e67fc5468e9f6dac7e3a189dbf70ba97c107dbf5cefdb4e921b0f",
-  "notes": "Opening Vayu now always takes the keyboard. Cleaner terminal and notes with no flicker, and one look across every screen."
+  "version": "0.4.2",
+  "url": "https://github.com/YashPatkar/vayu/releases/download/v0.4.2/vayu.exe",
+  "sha256": "e8f4a6c4f45e3b93a4c571a1c1d0851e3e09697c55e2eb688e4fb49e1de0322b",
+  "signature": "434de444bb2ba172f082cf35dc35c69744e3c90f79187b92d6898f99071f7de3384abc3c0f4b6b0c3fb0d1c2691264ccc5125a59c71775066ab8e8c416da6b08",
+  "notes": "Opens faster. The terminal now has tabs, so you can run several projects at once and pick PowerShell, Git Bash or another shell for each tab. Scrolling with the mouse wheel or touchpad works in the terminal."
 }
