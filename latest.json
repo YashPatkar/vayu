@@ -1,7 +1,7 @@
 {
-  "version": "0.4.2",
-  "url": "https://github.com/YashPatkar/vayu/releases/download/v0.4.2/vayu.exe",
-  "sha256": "e8f4a6c4f45e3b93a4c571a1c1d0851e3e09697c55e2eb688e4fb49e1de0322b",
-  "signature": "434de444bb2ba172f082cf35dc35c69744e3c90f79187b92d6898f99071f7de3384abc3c0f4b6b0c3fb0d1c2691264ccc5125a59c71775066ab8e8c416da6b08",
-  "notes": "Opens faster. The terminal now has tabs, so you can run several projects at once and pick PowerShell, Git Bash or another shell for each tab. Scrolling with the mouse wheel or touchpad works in the terminal."
+  "version": "0.5.0",
+  "url": "https://github.com/YashPatkar/vayu/releases/download/v0.5.0/vayu.exe",
+  "sha256": "83ec5a997b8b0b432d3c7ac2a22e51874902d32334a6bfc5a9abb6ecfc0a372c",
+  "signature": "d1bddbbc1912d51b6dcdb0319bc4d02cb407975cc146bd61ad57064937deb0945a84605a49567bf3bc820ad0909db7efd29c73bf3ef4e74d5c0568bf0f7bd108",
+  "notes": "Vayu AI answers look cleaner. Free a port and end apps with a sort menu, send API requests, and let Claude Code, Cursor or Codex ask Vayu about your PC (Settings, AI, MCP). New Theme page with a Glass look."
 }
